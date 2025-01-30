@@ -1,0 +1,13 @@
+prefix=C:/VILLGAX/CODES/Projects/Meme Generator/venv_sql/Library
+exec_prefix=C:/VILLGAX/CODES/Projects/Meme Generator/venv_sql/Library
+libdir=C:/VILLGAX/CODES/Projects/Meme Generator/venv_sql/Library/lib
+sharedlibdir=C:/VILLGAX/CODES/Projects/Meme Generator/venv_sql/Library/lib
+includedir=C:/VILLGAX/CODES/Projects/Meme Generator/venv_sql/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
